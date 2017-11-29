@@ -3,6 +3,8 @@ Hackerearth Future Group Datathon
 
 In this problem, you've to predict clusters of customers by store location. Knowing the set of customers that behave evenly will help them target their product promotions accordingly.
 
+**Score on Public Leaderboard:** 1.00 (**Rank 1**)
+
 ## Data Description
 
 The dataset consists of Big Bazar consumers.
@@ -52,3 +54,12 @@ This file contains information on payment mode(s) used by a customer in making a
 **transaction_number_by_till**	unique transaction number by counter, transactionDate, store_code<br />
 **payment_amount_by_tender**	amount paid using the payment mode<br />
 **PaymentUsed**	description of mode of payment<br />
+
+
+**Evaluation Metric**<br />
+
+Submission will be evaluated based on:
+
+score = silhouttescore - (weight * silhouttescore)
+
+The weight applied is based on the number of clusters of customers per store.
