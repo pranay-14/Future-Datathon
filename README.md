@@ -3,6 +3,9 @@ Hackerearth Future Group Datathon
 
 In this problem, you've to predict clusters of customers by store location. Knowing the set of customers that behave evenly will help them target their product promotions accordingly.
 
+**Score on Private Leaderboard:** 1.00 (**Rank 1**)
+
+
 
 ## Data Description
 
